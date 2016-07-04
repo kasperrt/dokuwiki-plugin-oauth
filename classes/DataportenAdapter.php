@@ -22,7 +22,7 @@ class DataportenAdapter extends AbstractAdapter {
 
         $user_groups = array();
         foreach($groups as $key) {
-          array_push($user_groups, str_replace(":", "_", $key["id"]);
+          array_push($user_groups, str_replace(":", "_", $key["id"]));
         }
 
         $data['user'] = $result['user']['userid'];
